@@ -1,0 +1,132 @@
+.hard-skills {
+    padding: 10vh 9%;
+    background: var(--bg-color);
+    color: var(--text-color);
+    height: 100vh;
+}
+
+.hard-skills .headingSkills {
+    font-size: 3.5rem;
+    color: var(--main-color);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hard-skills .letter {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.hard-skills .skills-container,
+.hard-skills .technologies-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hard-skills .skill,
+.hard-skills .technology {
+    flex-basis: 30%;
+    background: var(--second-bg-color);
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.hard-skills .skill i,
+.hard-skills .technology i {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.hard-skills .skill .description-icon,
+.hard-skills .technology .description-icon {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.hard-skills .skill .description,
+.hard-skills .technology .description {
+    font-size: 1rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+    .hard-skills {
+        padding: 5vh 5%;
+        height: auto;
+    }
+
+    .hard-skills .headingSkills {
+        font-size: 2.5rem;
+    }
+
+    .hard-skills .letter {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .hard-skills .skills-container,
+    .hard-skills .technologies-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hard-skills .skill,
+    .hard-skills .technology {
+        flex-basis: 80%;
+    }
+
+    .hard-skills .skill i,
+    .hard-skills .technology i {
+        font-size: 3rem;
+    }
+
+    .hard-skills .skill .description-icon,
+    .hard-skills .technology .description-icon {
+        font-size: 1.2rem;
+    }
+
+    .hard-skills .skill .description,
+    .hard-skills .technology .description {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hard-skills .headingSkills {
+        font-size: 2rem;
+    }
+
+    .hard-skills .letter {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .hard-skills .skill,
+    .hard-skills .technology {
+        flex-basis: 100%;
+    }
+
+    .hard-skills .skill i,
+    .hard-skills .technology i {
+        font-size: 2.5rem;
+    }
+
+    .hard-skills .skill .description-icon,
+    .hard-skills .technology .description-icon {
+        font-size: 1rem;
+    }
+
+    .hard-skills .skill .description,
+    .hard-skills .technology .description {
+        font-size: 0.8rem;
+    }
+}

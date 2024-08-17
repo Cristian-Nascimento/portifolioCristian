@@ -1,0 +1,131 @@
+.projects {
+    background: var(--second-bg-color);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 100vh;
+}
+
+.heading {
+    font-size: 3.5rem;
+    color: var(--main-color);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.projects h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    justify-content: center
+}
+
+.projects-box {
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    transition: 0.3s ease;
+}
+
+.projects-box:hover {
+    transform: scale(1.02);
+}
+
+.projects-box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.projects-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1.5rem;
+    flex: 1;
+}
+
+.projects-info h4 {
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.projects-info p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projects-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.btn{
+    text-align:center;
+    font-weight: 700;
+}
+
+.projects-buttons .btn {
+    background: var(--bg-color);
+    color: var(--main-color);
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.projects-buttons .btn:hover {
+    background: var(--main-color-2);
+    color: var(--bg-color);
+}
+
+.paragrafoText{
+    height: 200px;
+}
+
+@media screen and (max-width: 1380px) {
+
+    .projects {
+        height: auto;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .projects-box {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .projects-buttons .btn{
+        padding: 0.5rem 1rem;
+    }
+
+    .projects-info h4 {
+        font-size: 1rem;
+    }
+
+    .projects-info p {
+        font-size: 1rem;
+    }
+
+    .paragrafoText{
+        height: 100px;
+    }
+}

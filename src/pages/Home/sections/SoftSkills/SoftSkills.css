@@ -1,0 +1,117 @@
+.soft-skills {
+    padding: 2vh 9%;
+    background: var(--second-bg-color);
+    color: var(--bg-color);
+}
+
+.soft-skills .heading {
+    font-size: 3.5rem;
+    color: var(--bg-color);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.soft-skills .letter {
+    font-size: 1.5rem;
+    color: var(--bg-color);
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.soft-skills .technologies-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.soft-skills .technology {
+    flex-basis: 30%;
+    background: var(--bg-color);
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+
+.soft-skills .technology i {
+    font-size: 4rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.soft-skills .technology .description-icon {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.soft-skills .technology .description {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+@media screen and (max-width: 768px) {
+    .soft-skills {
+        padding: 5vh 5%;
+    }
+
+    .soft-skills .heading {
+        font-size: 2.5rem;
+    }
+
+    .soft-skills .letter {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .soft-skills .technologies-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .soft-skills .technology {
+        flex-basis: 80%;
+    }
+
+    .soft-skills .technology i {
+        font-size: 3rem;
+    }
+
+    .soft-skills .technology .description-icon {
+        font-size: 1.2rem;
+    }
+
+    .soft-skills .technology .description {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .soft-skills .heading {
+        font-size: 2rem;
+    }
+
+    .soft-skills .letter {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .soft-skills .technology {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .soft-skills .technology i {
+        font-size: 2.5rem;
+    }
+
+    .soft-skills .technology .description-icon {
+        font-size: 1rem;
+    }
+
+    .soft-skills .technology .description {
+        font-size: 0.8rem;
+    }
+}
