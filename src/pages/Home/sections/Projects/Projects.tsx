@@ -49,7 +49,7 @@ const Projects = () => {
                             </div>
                             <div className="projects-buttons">
                                 <a href="https://github.com/Cristian-Nascimento/Cristian-Nascimento.github.io" target="_blank" className="btn">CÓDIGO WEB</a>
-                                <a href="https://cristian-nascimento.github.io/" target="_blank" className="btn">ACESSAR</a>
+                                <a href="https://modernclocks.netlify.app/" target="_blank" className="btn">ACESSAR</a>
                             </div>
                         </div>
 
