@@ -1,6 +1,8 @@
 import reservationTable from '../../../../assets/print-reservationTable.png'
 import watch from '../../../../assets/print-Watch.png'
 import dashboard from '../../../../assets/print-dashboard.png'
+import calculator from '../../../../assets/print-calculator.png'
+import calendarPicture from '../../../../assets/print-calendar.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -44,12 +46,38 @@ const Projects = () => {
                             <div className="projects-info">
                                 <h4>Relógio Minimalista</h4>
                                 <img src={watch} alt="Relógio Personalizado" />
-                                <p className='paragrafoText'>Simples aplicação feita com Html 5, css 3 e JavaScript usando conceitos de clean code.</p>
+                                <p className='paragrafoText'>Simples aplicação feita com Html 5, css 3 e JavaScript.</p>
                                 <p><strong>Tecnologias:</strong> HTML5, CSS3, JavaScript</p>
                             </div>
                             <div className="projects-buttons">
                                 <a href="https://github.com/Cristian-Nascimento/Cristian-Nascimento.github.io" target="_blank" className="btn">CÓDIGO WEB</a>
                                 <a href="https://modernclocks.netlify.app/" target="_blank" className="btn">ACESSAR</a>
+                            </div>
+                        </div>
+
+                        <div className="projects-box">
+                            <div className="projects-info">
+                                <h4>Calculadora Minimalista</h4>
+                                <img src={calculator} alt="Calculadora Personalizado" />
+                                <p className='paragrafoText'>Calculadora minimalista feita com React, usando local estorage para armazenagem temporária dos dados.</p>
+                                <p><strong>Tecnologias:</strong> HTML5, CSS3, React</p>
+                            </div>
+                            <div className="projects-buttons">
+                                <a href="https://github.com/Cristian-Nascimento/scientific-calculator" target="_blank" className="btn">CÓDIGO WEB</a>
+                                <a href="https://cristiancalculator.netlify.app/" target="_blank" className="btn">ACESSAR</a>
+                            </div>
+                        </div>
+
+                        <div className="projects-box">
+                            <div className="projects-info">
+                                <h4>Calendário Minimalista</h4>
+                                <img src={calendarPicture} alt="Calendário Personalizado" />
+                                <p className='paragrafoText'>Calendário minimalista - Apenas treinando conceitos de data.</p>
+                                <p><strong>Tecnologias:</strong> HTML5, CSS3, JavaScript</p>
+                            </div>
+                            <div className="projects-buttons">
+                                <a href="https://github.com/Cristian-Nascimento/modern-calendar" target="_blank" className="btn">CÓDIGO WEB</a>
+                                <a href="https://master--moderncalendar.netlify.app/" target="_blank" className="btn">ACESSAR</a>
                             </div>
                         </div>
 
