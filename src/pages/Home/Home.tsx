@@ -6,6 +6,7 @@ import Navbar from "./sections/Navbar/Navbar"
 import Projects from "./sections/Projects/Projects"
 import SoftSkills from "./sections/SoftSkills/SoftSkills"
 import './Home.css'
+import Certificates from "./sections/Certificates/Certificates"
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Projects />
             <HardSkills />
             <SoftSkills />
+            <Certificates />
             <About />
             <Footer />
         </div>
