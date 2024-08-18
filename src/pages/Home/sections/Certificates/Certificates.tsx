@@ -1,11 +1,17 @@
 import './Certificates.css'
 import { useRef } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react'
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Swiper as SwiperType } from 'swiper/types';
 
-const Certificates = () => {
+interface Certificate {
+    id: number;
+    image: string;
+    alt: string;
+}
 
-    const data = [
+const Certificates: React.FC = () => {
+    const data: Certificate[] = [
         {
             id: 1,
             image: "https://hermes.dio.me/certificates/cover/5E6AC942.jpg",
@@ -71,13 +77,16 @@ const Certificates = () => {
             image: "https://hermes.dio.me/certificates/cover/BRADWYFH.jpg",
             alt: "Certificado de conclusão do curso Fundamentos do React da DIO"
         }
-    ]
+    ];
 
-    const progressCircle = useRef(null);
-    const progressContent = useRef(null);
-    const onAutoplayTimeLeft = (_, time, progress) => {
-        progressCircle.current.style.setProperty('--progress', 1 - progress);
-        progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+    const progressCircle = useRef<SVGSVGElement | null>(null);
+    const progressContent = useRef<HTMLSpanElement | null>(null);
+
+    const onAutoplayTimeLeft = (_swiper: SwiperType, time: number, progress: number) => {
+        if (progressCircle.current && progressContent.current) {
+            progressCircle.current.style.setProperty('--progress', (1 - progress).toString());
+            progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+        }
     };
 
     return (
@@ -112,7 +121,7 @@ const Certificates = () => {
                 </div>
             </Swiper>
         </section>
-    )
+    );
 }
 
-export default Certificates
+export default Certificates;
