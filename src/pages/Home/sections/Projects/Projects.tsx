@@ -3,6 +3,7 @@ import watch from '../../../../assets/print-Watch.png'
 import dashboard from '../../../../assets/print-dashboard.png'
 import calculator from '../../../../assets/print-calculator.png'
 import calendarPicture from '../../../../assets/print-calendar.png'
+import portifolio from '../../../../assets/print-portifolio.png'
 import './Projects.css'
 
 const Projects = () => {
@@ -11,10 +12,22 @@ const Projects = () => {
             <div className="projects-container">
                 <section className="projects" id="projects">
                     <h2 className="heading">Projetos</h2>
-                    
-                    <div className="projects-container">
-                        <div className="projects-box">
 
+                    <div className="projects-container">
+
+                        <div className="projects-box">
+                            <div className="projects-info">
+                                <h4>Portifólio</h4>
+                                <img src={portifolio} alt="Portifólio" />
+                                <p className='paragrafoText'>Aplicação web feita com React, meu portifólio.</p>
+                                <p><strong>Tecnologias:</strong> React.</p>
+                            </div>
+                            <div className="projects-buttons">
+                                <a href="https://github.com/Cristian-Nascimento/portifolioCristian" target="_blank" className="btn">CÓDIGO FONTE</a>
+                            </div>
+                        </div>
+
+                        <div className="projects-box">
                             <div className="projects-info">
                                 <h4>Dashboard Financeiro</h4>
                                 <img src={dashboard} alt="Dashboard Financeiro" />
