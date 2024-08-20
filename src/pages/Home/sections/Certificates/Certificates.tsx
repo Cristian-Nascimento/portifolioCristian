@@ -76,6 +76,16 @@ const Certificates: React.FC = () => {
             id: 13,
             image: "https://hermes.dio.me/certificates/cover/BRADWYFH.jpg",
             alt: "Certificado de conclusão do curso Fundamentos do React da DIO"
+        },
+        {
+            id: 14,
+            image: "https://hermes.dio.me/certificates/cover/8CZ5EOUV.jpg",
+            alt: "Certificado de Formação Microsoft Azure AI Fundamentals (AI-900) da DIO"
+        },
+        {
+            id: 15,
+            image: "https://hermes.dio.me/certificates/cover/PMF5JF4V.jpg",
+            alt: "Certificado de Formação Fundamentos de Inteligência Artificial da DIO"
         }
     ];
 
