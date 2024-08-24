@@ -1,12 +1,10 @@
 .projects {
     padding: 0vh 9%;
-    background: var(--second-bg-color);
-    color: rgb(255, 255, 255);
 }
 
 .heading {
     font-size: 3.5rem;
-    color: var(--main-color);
+    color: var(--main-color-2);
     font-weight: 600;
     text-align: center;
     margin-top: 10vh;
@@ -14,7 +12,7 @@
 }
 
 .projects h2 {
-    color: rgb(255, 255, 255);
+    color: var(--main-color-2);
     font-size: 3.5rem;
 }
 

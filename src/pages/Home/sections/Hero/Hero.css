@@ -1,9 +1,8 @@
 .home_home {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
+    background-color: var(--text-color);
 }
 
 :root {
@@ -18,46 +17,48 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin: 80px;
+    margin: 150px;
 }
 
 .img {
-    width: 35vh;
+    width: 45vh;
 }
 
 .home-content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: Left;
     flex-direction: column;
-    text-align: center;
+    text-align: Left;
+    margin: 80px;
+    color: var(--bg-color);
 }
 
 .home-content h3 {
     font-size: 2rem;
     font-weight: 800;
+    color: var(--main-color-2);
 }
 
 .home-content p {
     margin-top: 20px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    width: auto;
+    width: 80%;
 }
 
 .social-icons a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
     background: transparent;
     border: 0.3rem solid var(--main-color);
-    font-size: 3rem;
+    font-size: 2rem;
     border-radius: 50%;
-    color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
+    color: var(--main-color-2);
+    margin: 4rem 2rem 0 0;
     transition: 0.3s ease;
 }
 
@@ -68,14 +69,25 @@
     border: 0.3rem transparent var(--main-color-2);
 }
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 1100px) {
 
     .home_home {
-        height: 100vh;
+        flex-direction: column;
+    }
+
+    .home-content {
+        margin: 0;
+        padding: 0.5rem 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content{
+        text-align: center;
     }
 
     .home-img {
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     .img {
@@ -83,11 +95,13 @@
     }
 
     .home-content h3 {
-        font-size: 2rem;
+        margin-top: 3rem;
+        padding: 1rem;
+        font-size: 1.5rem;
     }
 
     .home-content p {
-        padding: 1rem;
+        margin: 1rem;
         font-size: 1rem;
     }
 
@@ -95,7 +109,7 @@
         width: 3rem;
         height: 3rem;
         font-size: 2rem;
-        margin: 1rem 0.5rem 1rem 0;
+        margin: 0rem 0.2rem 0rem 1rem;
     }
 
 }
