@@ -37,6 +37,12 @@ body {
 }
 
 @media screen and (max-width: 815px) {
+
+    .navbar-header {
+        padding: 5vh 5%;
+        justify-content: center;
+    }
+
     #menu-icon {
         display: block;
     }

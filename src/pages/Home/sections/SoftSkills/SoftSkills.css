@@ -53,6 +53,7 @@
 @media screen and (max-width: 768px) {
     .soft-skills {
         padding: 5vh 5%;
+        height: 100%;
     }
 
     .soft-skills .heading {
