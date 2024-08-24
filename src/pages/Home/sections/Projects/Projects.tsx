@@ -1,3 +1,4 @@
+import { useLayoutEffect, useRef } from 'react'
 import reservationTable from '../../../../assets/print-reservationTable.png'
 import watch from '../../../../assets/print-Watch.png'
 import dashboard from '../../../../assets/print-dashboard.png'
@@ -6,16 +7,83 @@ import calendarPicture from '../../../../assets/print-calendar.png'
 import portifolio from '../../../../assets/print-portifolio.png'
 import './Projects.css'
 
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
 const Projects = () => {
+    const el = useRef<HTMLDivElement>(null);
+    const tl = useRef<gsap.core.Timeline>();
+
+    useLayoutEffect(() => {
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.context(() => {
+            tl.current = gsap.timeline({
+                scrollTrigger: {
+                    trigger: '.projects-box',
+                    scrub: true,
+                    start: 'top 800px',
+                    end: 'bottom 350px',
+                }
+            })
+                .fromTo('#project-1', {
+                    opacity: 0,
+                    y: 160,
+                }, {
+                    opacity: 1,
+                    y: 0
+                })
+                .fromTo('#project-2', {
+                    opacity: 0,
+                    y: 160,
+                }, {
+                    opacity: 1,
+                    y: 0
+                })
+                .fromTo('#project-3', {
+                    opacity: 0,
+                    y: 160,
+                }, {
+                    opacity: 1,
+                    y: 0
+                })
+                .fromTo('#project-4', {
+                    opacity: 0,
+                    y: 160,
+                }, {
+                    opacity: 1,
+                    y: 0
+                })
+                .fromTo('#project-5', {
+                    opacity: 0,
+                    y: 160,
+                }, {
+                    opacity: 1,
+                    y: 0
+                })
+                .fromTo('#project-6', {
+                    opacity: 0,
+                    y: 160,
+                }, {
+                    opacity: 1,
+                    y: 0
+                });
+        }, el);
+
+        return () => {
+            gsap.killTweensOf(".projects-box");
+        }
+    }, []);
+
+
     return (
         <section className="projects" id="projects">
             <div className="projects-container">
                 <section className="projects" id="projects">
                     <h2 className="heading">Projetos</h2>
 
-                    <div className="projects-container">
+                    <div className="projects-container" ref={el}>
 
-                        <div className="projects-box">
+                        <div className="projects-box" id="project-1">
                             <div className="projects-info">
                                 <h4>Portifólio</h4>
                                 <img src={portifolio} alt="Portifólio" />
@@ -27,7 +95,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="projects-box">
+                        <div className="projects-box" id="project-2">
                             <div className="projects-info">
                                 <h4>Dashboard Financeiro</h4>
                                 <img src={dashboard} alt="Dashboard Financeiro" />
@@ -41,7 +109,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="projects-box">
+                        <div className="projects-box" id="project-3">
                             <div className="projects-info">
                                 <h4>Sistema de Reserva de Mesas</h4>
                                 <img src={reservationTable} alt="Sistema de Reserva de Mesas" />
@@ -55,7 +123,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="projects-box">
+                        <div className="projects-box" id="project-4">
                             <div className="projects-info">
                                 <h4>Relógio Minimalista</h4>
                                 <img src={watch} alt="Relógio Personalizado" />
@@ -68,7 +136,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="projects-box">
+                        <div className="projects-box" id="project-5">
                             <div className="projects-info">
                                 <h4>Calculadora Minimalista</h4>
                                 <img src={calculator} alt="Calculadora Personalizado" />
@@ -81,7 +149,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className="projects-box">
+                        <div className="projects-box" id="project-6">
                             <div className="projects-info">
                                 <h4>Calendário Minimalista</h4>
                                 <img src={calendarPicture} alt="Calendário Personalizado" />
