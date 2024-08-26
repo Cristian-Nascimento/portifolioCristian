@@ -2,8 +2,6 @@ import { useLayoutEffect, useRef } from 'react'
 import reservationTable from '../../../../assets/print-reservationTable.png'
 import watch from '../../../../assets/print-Watch.png'
 import dashboard from '../../../../assets/print-dashboard.png'
-import calculator from '../../../../assets/print-calculator.png'
-import calendarPicture from '../../../../assets/print-calendar.png'
 import portifolio from '../../../../assets/print-portifolio.png'
 import './Projects.css'
 
@@ -53,20 +51,6 @@ const Projects = () => {
                     opacity: 1,
                     x: 0
                 })
-                .fromTo('#project-5', {
-                    opacity: 0,
-                    x: -160,
-                }, {
-                    opacity: 1,
-                    x: 0
-                })
-                .fromTo('#project-6', {
-                    opacity: 0,
-                    x: -160,
-                }, {
-                    opacity: 1,
-                    x: 0
-                });
         }, el);
 
         return () => {
@@ -135,33 +119,6 @@ const Projects = () => {
                                 <a href="https://modernclocks.netlify.app/" target="_blank" className="btn">ACESSAR</a>
                             </div>
                         </div>
-
-                        <div className="projects-box" id="project-5">
-                            <div className="projects-info">
-                                <h4>Calculadora Minimalista</h4>
-                                <img src={calculator} alt="Calculadora Personalizado" />
-                                <p className='paragrafoText'>Calculadora minimalista feita com React, usando local estorage para armazenagem temporária dos dados.</p>
-                                <p><strong>Tecnologias:</strong> HTML5, CSS3, React</p>
-                            </div>
-                            <div className="projects-buttons">
-                                <a href="https://github.com/Cristian-Nascimento/scientific-calculator" target="_blank" className="btn">CÓDIGO WEB</a>
-                                <a href="https://cristiancalculator.netlify.app/" target="_blank" className="btn">ACESSAR</a>
-                            </div>
-                        </div>
-
-                        <div className="projects-box" id="project-6">
-                            <div className="projects-info">
-                                <h4>Calendário Minimalista</h4>
-                                <img src={calendarPicture} alt="Calendário Personalizado" />
-                                <p className='paragrafoText'>Calendário minimalista - Apenas treinando conceitos de data.</p>
-                                <p><strong>Tecnologias:</strong> HTML5, CSS3, JavaScript</p>
-                            </div>
-                            <div className="projects-buttons">
-                                <a href="https://github.com/Cristian-Nascimento/modern-calendar" target="_blank" className="btn">CÓDIGO WEB</a>
-                                <a href="https://master--moderncalendar.netlify.app/" target="_blank" className="btn">ACESSAR</a>
-                            </div>
-                        </div>
-
                     </div>
                 </section>
             </div>
