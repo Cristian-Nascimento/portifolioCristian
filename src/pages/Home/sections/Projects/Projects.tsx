@@ -27,45 +27,45 @@ const Projects = () => {
             })
                 .fromTo('#project-1', {
                     opacity: 0,
-                    y: 160,
+                    x: -160,
                 }, {
                     opacity: 1,
-                    y: 0
+                    x: 0
                 })
                 .fromTo('#project-2', {
                     opacity: 0,
-                    y: 160,
+                    x: -160,
                 }, {
                     opacity: 1,
-                    y: 0
+                    x: 0
                 })
                 .fromTo('#project-3', {
                     opacity: 0,
-                    y: 160,
+                    x: -160,
                 }, {
                     opacity: 1,
-                    y: 0
+                    x: 0
                 })
                 .fromTo('#project-4', {
                     opacity: 0,
-                    y: 160,
+                    x: -160,
                 }, {
                     opacity: 1,
-                    y: 0
+                    x: 0
                 })
                 .fromTo('#project-5', {
                     opacity: 0,
-                    y: 160,
+                    x: -160,
                 }, {
                     opacity: 1,
-                    y: 0
+                    x: 0
                 })
                 .fromTo('#project-6', {
                     opacity: 0,
-                    y: 160,
+                    x: -160,
                 }, {
                     opacity: 1,
-                    y: 0
+                    x: 0
                 });
         }, el);
 

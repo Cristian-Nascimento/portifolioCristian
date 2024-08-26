@@ -9,8 +9,7 @@
     --bg-color: #ffffff;
     --second-bg-color: #3434be;
     --text-color: rgb(0, 0, 0);
-    --main-color: #3d6ec9;
-    --main-color-2: #0b9bee;
+    --main-color: #0b9bee;
 }
 
 .home-img {
@@ -37,7 +36,7 @@
 .home-content h3 {
     font-size: 2rem;
     font-weight: 800;
-    color: var(--main-color-2);
+    color: var(--main-color);
 }
 
 .home-content p {
@@ -54,10 +53,9 @@
     width: 3rem;
     height: 3rem;
     background: transparent;
-    border: 0.3rem solid var(--main-color);
     font-size: 2rem;
     border-radius: 50%;
-    color: var(--main-color-2);
+    color: var(--main-color);
     margin: 4rem 2rem 0 0;
     transition: 0.3s ease;
 }
@@ -65,8 +63,8 @@
 .social-icons a:hover {
     color: var(--bg-color);
     transform: scale(1.3)translateY(-0.5rem);
-    background-color: var(--main-color-2);
-    border: 0.3rem transparent var(--main-color-2);
+    background-color: var(--main-color);
+    border: 0.3rem transparent var(--main-color);
 }
 
 @media screen and (max-width: 1100px) {
