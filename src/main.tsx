@@ -1,7 +1,9 @@
+/* eslint-disable react-refresh/only-export-components */
 import { StrictMode, useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import { register } from 'swiper/element/bundle'
+import './pages/Home/it8n/it8n.tsx'
 
 register()
 import 'swiper/css'

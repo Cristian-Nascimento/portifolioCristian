@@ -1,12 +1,11 @@
 .about {
     padding: 10vh 9%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    background-color: #ffffff;
-    color: var(--text-color);
+    background-color: #0F0C08;
+    color: #ffffff;
 }
 
 .headingAbout {
