@@ -7,9 +7,9 @@
 
 :root {
     --bg-color: #ffffff;
-    --second-bg-color: #3434be;
-    --text-color: rgb(0, 0, 0);
-    --main-color: #0b9bee;
+    --second-bg-color: #0b2d9b;
+    --text-color: #0F0C08;
+    --main-color: #1b8bad;
 }
 
 .home-img {

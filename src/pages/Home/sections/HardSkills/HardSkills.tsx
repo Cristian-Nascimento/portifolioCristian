@@ -1,10 +1,11 @@
-import { useLayoutEffect, useRef } from 'react'
-
-import './HardSkills.css'
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { useLayoutEffect, useRef } from 'react';
+import './HardSkills.css';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { useTranslation } from 'react-i18next';
 
 const HardSkills = () => {
+    const { t } = useTranslation();
     const el = useRef<HTMLDivElement>(null);
     const tl = useRef<gsap.core.Timeline>();
 
@@ -19,93 +20,57 @@ const HardSkills = () => {
                     end: 'bottom 700px',
                 }
             })
-                .fromTo('#skill-1', {
-                    opacity: 0,
-                    x: 160,
-                }, {
-                    opacity: 1,
-                    x: 0
-                })
-                .fromTo('#skill-2', {
-                    opacity: 0,
-                    x: 160,
-                }, {
-                    opacity: 1,
-                    x: 0
-                })
-                .fromTo('#skill-3', {
-                    opacity: 0,
-                    x: 160,
-                }, {
-                    opacity: 1,
-                    x: 0
-                })
-                .fromTo('#skill-4', {
-                    opacity: 0,
-                    x: 160,
-                }, {
-                    opacity: 1,
-                    x: 0
-                })
-                .fromTo('#skill-5', {
-                    opacity: 0,
-                    x: 160,
-                }, {
-                    opacity: 1,
-                    x: 0
-                })
-                .fromTo('#skill-6', {
-                    opacity: 0,
-                    x: 160,
-                }, {
-                    opacity: 1,
-                    x: 0
-                });
+                .fromTo('#skill-1', { opacity: 0, x: 160 }, { opacity: 1, x: 0 })
+                .fromTo('#skill-2', { opacity: 0, x: 160 }, { opacity: 1, x: 0 })
+                .fromTo('#skill-3', { opacity: 0, x: 160 }, { opacity: 1, x: 0 })
+                .fromTo('#skill-4', { opacity: 0, x: 160 }, { opacity: 1, x: 0 })
+                .fromTo('#skill-5', { opacity: 0, x: 160 }, { opacity: 1, x: 0 })
+                .fromTo('#skill-6', { opacity: 0, x: 160 }, { opacity: 1, x: 0 });
         }, el);
 
         return () => {
             gsap.killTweensOf(".skills-container");
-        }
+        };
     }, []);
 
     return (
         <section className="hard-skills" id="hard-skills" ref={el}>
-            <h2 className="headingSkills">Minhas Habilidades</h2>
-            <p className="letter">Possuo uma série de hard skills, fundamentado em experiências práticas e educação formal. Essas habilidades incluem um forte foco no trabalho em equipe, proficiência em metodologias ágeis e um compromisso com a escrita de código limpo e sustentável.</p>
+            <h2 className="headingSkills">{t('hardSkills.heading')}</h2>
+            <p className="letter">{t('hardSkills.intro')}</p>
             <div className="skills-container">
                 <div className="skill" id="skill-1">
                     <i className='bx bx-group'></i>
-                    <p className="description-icon">Trabalho em Equipe</p>
-                    <p className="description">Tenho grande facilidade de trabalhar em equipe, visando o respeito e a eficácia da comunicação.</p>
+                    <p className="description-icon">{t('hardSkills.skills.teamwork.title')}</p>
+                    <p className="description">{t('hardSkills.skills.teamwork.description')}</p>
                 </div>
                 <div className="skill" id="skill-2">
                     <i className='bx bxs-briefcase'></i>
-                    <p className="description-icon">Metodologia Ágil</p>
-                    <p className="description">Aplico metodologias ágeis, como Kanban, para gerenciar projetos e otimizar a eficiência do fluxo do meu trabalho.</p>
+                    <p className="description-icon">{t('hardSkills.skills.agile.title')}</p>
+                    <p className="description">{t('hardSkills.skills.agile.description')}</p>
                 </div>
                 <div className="skill" id="skill-3">
                     <i className='bx bxs-rocket'></i>
-                    <p className="description-icon">Proatividade</p>
-                    <p className="description">Tomo iniciativas em tarefas e correções de bugs, buscando a conclusão eficaz, e mais pontual o possível.</p>
+                    <p className="description-icon">{t('hardSkills.skills.proactivity.title')}</p>
+                    <p className="description">{t('hardSkills.skills.proactivity.description')}</p>
                 </div>
                 <div className="skill" id="skill-4">
                     <i className='bx bx-code-block'></i>
-                    <p className="description-icon">Novas Tecnologias</p>
-                    <p className="description">Tenho facilidadem em aprender novas tecnologia e me adaptar a novas e ferramentas e mudanças, mantendo-me atualizado com as últimas tendências do mercado.</p>
+                    <p className="description-icon">{t('hardSkills.skills.newTech.title')}</p>
+                    <p className="description">{t('hardSkills.skills.newTech.description')}</p>
                 </div>
                 <div className="skill" id="skill-5">
                     <i className='bx bxs-pencil'></i>
-                    <p className="description-icon">Código Limpo</p>
-                    <p className="description">Escrevo códigos limpos, bem estruturados e de fácil manutenção, garantindo a escalabilidade a longo prazo.</p>
+                    <p className="description-icon">{t('hardSkills.skills.cleanCode.title')}</p>
+                    <p className="description">{t('hardSkills.skills.cleanCode.description')}</p>
                 </div>
                 <div className="skill" id="skill-6">
                     <i className='bx bxs-check-shield'></i>
-                    <p className="description-icon">TDD</p>
-                    <p className="description">Ajudei a implementar a métodologia TDD no meu emprego atual, com a espectativa de entregar as sprints com zero bugs!</p>
+                    <p className="description-icon">{t('hardSkills.skills.tdd.title')}</p>
+                    <p className="description">{t('hardSkills.skills.tdd.description')}</p>
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default HardSkills
+export default HardSkills;

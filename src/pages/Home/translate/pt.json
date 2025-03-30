@@ -1,0 +1,192 @@
+{
+  "hero": {
+    "title": "BACK-END DEVELOPER",
+    "description": "Com 2 anos de experiência em Node.js, MongoDB e Express, tenho capacidade de construir aplicações escaláveis e de alta performance, aplicando metodologias ágeis, clean code e TDD. Conhecimentos em Docker, AWS, e versionamento de código Git."
+  },
+  "hardSkills": {
+    "heading": "Minhas Habilidades",
+    "intro": "Possuo uma série de hard skills, fundamentado em experiências práticas e educação formal. Essas habilidades incluem um forte foco no trabalho em equipe, proficiência em metodologias ágeis e um compromisso com a escrita de código limpo e sustentável.",
+    "skills": {
+      "teamwork": {
+        "title": "Trabalho em Equipe",
+        "description": "Tenho grande facilidade de trabalhar em equipe, visando o respeito e a eficácia da comunicação."
+      },
+      "agile": {
+        "title": "Metodologia Ágil",
+        "description": "Aplico metodologias ágeis, como Kanban, para gerenciar projetos e otimizar a eficiência do fluxo do meu trabalho."
+      },
+      "proactivity": {
+        "title": "Proatividade",
+        "description": "Tomo iniciativas em tarefas e correções de bugs, buscando a conclusão eficaz, e mais pontual o possível."
+      },
+      "newTech": {
+        "title": "Novas Tecnologias",
+        "description": "Tenho facilidade em aprender novas tecnologias e me adaptar a novas ferramentas e mudanças, mantendo-me atualizado com as últimas tendências do mercado."
+      },
+      "cleanCode": {
+        "title": "Código Limpo",
+        "description": "Escrevo códigos limpos, bem estruturados e de fácil manutenção, garantindo a escalabilidade a longo prazo."
+      },
+      "tdd": {
+        "title": "TDD",
+        "description": "Ajudei a implementar a metodologia TDD no meu emprego atual, com a expectativa de entregar as sprints com zero bugs!"
+      }
+    }
+  },
+  "navbar": {
+    "home": "Início",
+    "projects": "Projetos",
+    "hardSkills": "Minhas Habilidades",
+    "softSkills": "Tecnologias",
+    "certificates": "Certificados",
+    "about": "Sobre Mim"
+  },
+  "about": {
+    "heading": "Conheça um pouco sobre mim",
+    "intro": "Oi, sou o Cristian.",
+    "paragraph1": "Comecei nesta jornada em 2019, quando entrei na faculdade de Sistemas de Informação. Durante esse tempo, aprendi muito sobre programação, me especializei em desenvolvimento backend e atualmente estou aprendendo e praticando desenvolvimento web.",
+    "paragraph2": "Além disso, sou apaixonado por aprender coisas novas, sempre buscando me aprimorar e me manter atualizado com as novas tecnologias."
+  },
+  "certificates": {
+    "heading": "Meus Certificados",
+    "alts": [
+      "Certificado de conclusão do curso de Nuvem AWS - Nexa Resources da DIO",
+      "Certificado de conclusão da aceleração: International Career Acceleration #3 TONNIE - Talent On European Experiences da DIO",
+      "Certificado de conclusão do curso de Formação HTML Web Developer da DIO",
+      "Certificado de conclusão da Aceleração Avanade - APIs: Boas práticas, proteção, Gateways e modelos ES6 da DIO",
+      "Certificado de conclusão do curso de Formação CI/CD com GitLab da DIO",
+      "Certificado de conclusão do curso de Chat-GPT - O Essencial da DIO",
+      "Certificado de conclusão do curso de Fundamentos de Computação em Nuvem na AWS da DIO",
+      "Certificado de conclusão do curso de Princípios de IA e Desenvolvimento de Software da DIO",
+      "Certificado de conclusão do curso de Microsoft Azure AI Fundamentals da DIO",
+      "Certificado de conclusão do curso de Aceleração Internacional - Accessibility in Clean RESTful APIs da DIO",
+      "Certificado de conclusão do curso de Princípios de Desenvolvimento Colaborativo da DIO",
+      "Certificado de conclusão do Bootcamp Nexa - Fundamentos de IA Generativa e Claude 3 da DIO",
+      "Certificado de conclusão do curso Fundamentos do React da DIO",
+      "Certificado de Formação Microsoft Azure AI Fundamentals (AI-900) da DIO",
+      "Certificado de Formação Fundamentos de Inteligência Artificial da DIO"
+    ]
+  },
+  "projects": {
+    "heading": "Projetos",
+    "project1": {
+      "title": "Portfólio",
+      "description": "Aplicação web feita com React, meu portfólio pessoal.",
+      "technologies": "Tecnologias: React",
+      "buttons": {
+        "sourceCode": "CÓDIGO FONTE"
+      }
+    },
+    "project2": {
+      "title": "Dashboard Financeiro",
+      "description": "Aplicação web feita com React que consulta e realiza operações (CRUD) em uma API (Node.js/MongoDB). A finalidade é ter um controle financeiro com gráfico e operações CRUD.",
+      "technologies": "Tecnologias: React, Node.js, MongoDB",
+      "buttons": {
+        "web": "WEB",
+        "api": "API",
+        "access": "ACESSAR"
+      }
+    },
+    "project3": {
+      "title": "Sistema de Reserva de Mesas",
+      "description": "Aplicação web feita com React que consulta e realiza operações (CRUD) em uma API (Node.js/MongoDB). A finalidade é realizar reservas de mesas em um restaurante fictício.",
+      "technologies": "Tecnologias: React, Node.js, MongoDB",
+      "buttons": {
+        "web": "WEB",
+        "api": "API",
+        "access": "ACESSAR"
+      }
+    },
+    "project4": {
+      "title": "Relógio Minimalista",
+      "description": "Simples aplicação feita com HTML5, CSS3 e JavaScript.",
+      "technologies": "Tecnologias: HTML5, CSS3, JavaScript",
+      "buttons": {
+        "sourceCode": "CÓDIGO WEB",
+        "access": "ACESSAR"
+      }
+    }
+  },
+  "softSkills": {
+    "heading": "Tecnologias",
+    "intro": "Possuo experiências práticas com diversas tecnologias modernas essenciais para o desenvolvimento Backend e serviços em nuvem.",
+    "technologies": [
+      {
+        "title": "Node.js",
+        "description": "Ambiente de execução para JavaScript no server-side, usado para construir APIs escaláveis."
+      },
+      {
+        "title": "Express",
+        "description": "Framework minimalista para Node.js, usado para construir aplicações web e APIs."
+      },
+      {
+        "title": "Nest.js",
+        "description": "Framework Node.js progressivo, construído com TypeScript, focado em eficiência e escalabilidade."
+      },
+      {
+        "title": "MongoDB",
+        "description": "Banco de dados NoSQL, ideal para armazenar grandes volumes de dados não estruturados."
+      },
+      {
+        "title": "Mongoose",
+        "description": "Biblioteca ODM para MongoDB, facilita a manipulação de dados no Node.js."
+      },
+      {
+        "title": "MySQL",
+        "description": "Banco de dados relacional amplamente utilizado para armazenamento e gerenciamento de dados estruturados."
+      },
+      {
+        "title": "SonarQube",
+        "description": "Plataforma para inspeção contínua de código, focada em qualidade e segurança."
+      },
+      {
+        "title": "Postman",
+        "description": "Ferramenta usada para testar APIs, facilitando o desenvolvimento e a documentação."
+      },
+      {
+        "title": "Docker",
+        "description": "Ferramenta para containerização de aplicações, garantindo portabilidade e consistência."
+      },
+      {
+        "title": "Git",
+        "description": "Sistema de versionamento de código, essencial para controle e colaboração em projetos."
+      },
+      {
+        "title": "GitHub",
+        "description": "Plataforma para hospedagem de repositórios Git, facilitando a colaboração e o gerenciamento de código."
+      },
+      {
+        "title": "GitLab",
+        "description": "Plataforma de CI/CD e gerenciamento de repositórios Git, oferecendo integração contínua."
+      },
+      {
+        "title": "React",
+        "description": "Biblioteca JavaScript para construção de interfaces de usuário, focada em componentes reutilizáveis."
+      },
+      {
+        "title": "Next.js",
+        "description": "Framework React para desenvolvimento de aplicações web com renderização híbrida."
+      },
+      {
+        "title": "Jest",
+        "description": "Framework de testes em JavaScript, focado em simplicidade e suporte para grandes aplicações."
+      },
+      {
+        "title": "Python",
+        "description": "Linguagem versátil usada para desenvolvimento web, data science e automação."
+      },
+      {
+        "title": "JavaScript",
+        "description": "Linguagem principal para desenvolvimento web, essencial para front-end e back-end."
+      },
+      {
+        "title": "TypeScript",
+        "description": "JavaScript com tipagem estática, aumentando a segurança e a escalabilidade do código."
+      },
+      {
+        "title": "Amazon Web Services",
+        "description": "Plataforma de serviços em nuvem usada para deploy, armazenamento e escalabilidade de aplicações."
+      }
+    ]
+  }
+}

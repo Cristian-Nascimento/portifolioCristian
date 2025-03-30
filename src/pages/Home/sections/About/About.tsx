@@ -1,29 +1,23 @@
-import fotoPerfil from '../../../../assets/perfil-corpo.jpg'
-import './About.css'
+import fotoPerfil from '../../../../assets/perfil-corpo.jpg';
+import './About.css';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+    const { t } = useTranslation();
+
     return (
         <section className="about" id="about">
             <div className="about-img">
                 <img src={fotoPerfil} alt="Imagem de perfil" />
             </div>
             <div className="about-content">
-                <h2 className="headingAbout">Conheça um pouco sobre mim</h2>
-                <p>
-                    Oi, sou o Cristian.
-                </p>
-                <p>
-                    Comecei nessa jornada em 2019, quando entrei na faculdade de Sistemas de informação.
-                    Durante esse tempo, aprendi muito sobre programação,
-                    me expecializei em desenvolvimento backend e atualemnte estou aprendendo e praticando desenvolvimento web.
-                </p>
-                <p>
-                    Além disso, sou apaixonado por aprender coisas novas,
-                    sempre buscando me aprimorar e me manter atualizado com as novas tecnologias.
-                </p>
+                <h2 className="headingAbout">{t('about.heading')}</h2>
+                <p>{t('about.intro')}</p>
+                <p>{t('about.paragraph1')}</p>
+                <p>{t('about.paragraph2')}</p>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default About
+export default About;
