@@ -105,6 +105,16 @@
         "sourceCode": "CÓDIGO WEB",
         "access": "ACESSAR"
       }
+    },
+    "project5": {
+      "title": "Drag And Drop",
+      "description": "Um aplicativo de arrastar e soltar desenvolvido com React e TypeScript, consumindo uma API externa. O projeto também utiliza variáveis de ambiente (.env) para configuração.",
+      "technologies": "Tecnologias: React, TypeScript, MongoDB",
+      "buttons": {
+        "web": "WEB",
+        "api": "API",
+        "access": "ACESSAR"
+      }
     }
   },
   "softSkills": {
@@ -112,80 +122,130 @@
     "intro": "Possuo experiências práticas com diversas tecnologias modernas essenciais para o desenvolvimento Backend e serviços em nuvem.",
     "technologies": [
       {
+        "icone": "devicon-nodejs-plain-wordmark",
         "title": "Node.js",
         "description": "Ambiente de execução para JavaScript no server-side, usado para construir APIs escaláveis."
       },
       {
+        "icone": "devicon-express-original",
         "title": "Express",
         "description": "Framework minimalista para Node.js, usado para construir aplicações web e APIs."
       },
       {
+        "icone": "devicon-nestjs-original",
         "title": "Nest.js",
         "description": "Framework Node.js progressivo, construído com TypeScript, focado em eficiência e escalabilidade."
       },
       {
+        "icone": "devicon-mongodb-plain-wordmark",
         "title": "MongoDB",
         "description": "Banco de dados NoSQL, ideal para armazenar grandes volumes de dados não estruturados."
       },
       {
+        "icone": "devicon-mongoose-original",
         "title": "Mongoose",
         "description": "Biblioteca ODM para MongoDB, facilita a manipulação de dados no Node.js."
       },
       {
+        "icone": "devicon-mysql-original",
         "title": "MySQL",
         "description": "Banco de dados relacional amplamente utilizado para armazenamento e gerenciamento de dados estruturados."
       },
       {
+        "icone": "devicon-sonarqube-original",
         "title": "SonarQube",
         "description": "Plataforma para inspeção contínua de código, focada em qualidade e segurança."
       },
       {
+        "icone": "devicon-postman-plain",
         "title": "Postman",
         "description": "Ferramenta usada para testar APIs, facilitando o desenvolvimento e a documentação."
       },
       {
+        "icone": "devicon-docker-plain",
         "title": "Docker",
         "description": "Ferramenta para containerização de aplicações, garantindo portabilidade e consistência."
       },
       {
+        "icone": "devicon-git-plain",
         "title": "Git",
         "description": "Sistema de versionamento de código, essencial para controle e colaboração em projetos."
       },
       {
+        "icone": "devicon-github-original",
         "title": "GitHub",
         "description": "Plataforma para hospedagem de repositórios Git, facilitando a colaboração e o gerenciamento de código."
       },
       {
+        "icone": "devicon-gitlab-plain",
         "title": "GitLab",
         "description": "Plataforma de CI/CD e gerenciamento de repositórios Git, oferecendo integração contínua."
       },
       {
+        "icone": "devicon-react-original",
         "title": "React",
         "description": "Biblioteca JavaScript para construção de interfaces de usuário, focada em componentes reutilizáveis."
       },
       {
+        "icone": "devicon-nextjs-plain",
         "title": "Next.js",
         "description": "Framework React para desenvolvimento de aplicações web com renderização híbrida."
       },
       {
+        "icone": "devicon-jest-plain",
         "title": "Jest",
         "description": "Framework de testes em JavaScript, focado em simplicidade e suporte para grandes aplicações."
       },
       {
+        "icone": "devicon-python-plain",
         "title": "Python",
         "description": "Linguagem versátil usada para desenvolvimento web, data science e automação."
       },
       {
+        "icone": "devicon-javascript-plain",
         "title": "JavaScript",
         "description": "Linguagem principal para desenvolvimento web, essencial para front-end e back-end."
       },
       {
+        "icone": "devicon-typescript-plain",
         "title": "TypeScript",
         "description": "JavaScript com tipagem estática, aumentando a segurança e a escalabilidade do código."
       },
       {
+        "icone": "devicon-amazonwebservices-plain-wordmark",
         "title": "Amazon Web Services",
         "description": "Plataforma de serviços em nuvem usada para deploy, armazenamento e escalabilidade de aplicações."
+      }
+      ,
+      {
+        "icone": "devicon-googlecloud-plain",
+        "title": "Google Cloud",
+        "description": "Plataforma de serviços em nuvem usada para implantação, armazenamento e escalabilidade de aplicativos."
+      },
+      {
+        "icone": "devicon-azure-plain",
+        "title": "Microsoft Azure",
+        "description": "Plataforma de serviços em nuvem usada para implantação, armazenamento e escalabilidade de aplicativos."
+      },
+      {
+        "icone": "devicon-bootstrap-plain",
+        "title": "Bootstrap",
+        "description": "Front-end framework para desenvolver sites responsivos e mobile-first."
+      },
+      {
+        "icone": "devicon-tailwindcss-plain",
+        "title": "Tailwind CSS",
+        "description": "Framework CSS utilitário para criar designs personalizados rapidamente."
+      },
+      {
+        "icone": "devicon-html5-plain",
+        "title": "HTML 5",
+        "description": "Linguagem de marcação para estruturar conteúdo web."
+      },
+      {
+        "icone": "devicon-css3-plain",
+        "title": "CSS 3",
+        "description": "Linguagem de folha de estilo para criação de páginas web."
       }
     ]
   }

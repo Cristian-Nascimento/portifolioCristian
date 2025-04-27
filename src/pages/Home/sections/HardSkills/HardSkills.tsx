@@ -1,40 +1,11 @@
-import { useLayoutEffect, useRef } from 'react';
 import './HardSkills.css';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useTranslation } from 'react-i18next';
 
 const HardSkills = () => {
     const { t } = useTranslation();
-    const el = useRef<HTMLDivElement>(null);
-    const tl = useRef<gsap.core.Timeline>();
-
-    useLayoutEffect(() => {
-        gsap.registerPlugin(ScrollTrigger);
-        gsap.context(() => {
-            tl.current = gsap.timeline({
-                scrollTrigger: {
-                    trigger: '.skills-container',
-                    scrub: true,
-                    start: 'top 800px',
-                    end: 'bottom 700px',
-                }
-            })
-                .fromTo('#skill-1', { opacity: 0, x: 160 }, { opacity: 1, x: 0 })
-                .fromTo('#skill-2', { opacity: 0, x: 160 }, { opacity: 1, x: 0 })
-                .fromTo('#skill-3', { opacity: 0, x: 160 }, { opacity: 1, x: 0 })
-                .fromTo('#skill-4', { opacity: 0, x: 160 }, { opacity: 1, x: 0 })
-                .fromTo('#skill-5', { opacity: 0, x: 160 }, { opacity: 1, x: 0 })
-                .fromTo('#skill-6', { opacity: 0, x: 160 }, { opacity: 1, x: 0 });
-        }, el);
-
-        return () => {
-            gsap.killTweensOf(".skills-container");
-        };
-    }, []);
 
     return (
-        <section className="hard-skills" id="hard-skills" ref={el}>
+        <section className="hard-skills" id="hard-skills">
             <h2 className="headingSkills">{t('hardSkills.heading')}</h2>
             <p className="letter">{t('hardSkills.intro')}</p>
             <div className="skills-container">

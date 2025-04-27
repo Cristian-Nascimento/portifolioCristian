@@ -2,6 +2,7 @@ import reservationTable from '../../../../assets/print-reservationTable.png';
 import watch from '../../../../assets/print-Watch.png';
 import dashboard from '../../../../assets/print-dashboard.png';
 import portifolio from '../../../../assets/print-portifolio.png';
+import dragAndDrop from '../../../../assets/print-dragAndDrop.png';
 import './Projects.css';
 import { useTranslation } from 'react-i18next';
 
@@ -67,6 +68,21 @@ const Projects = () => {
                 <a href="https://modernclocks.netlify.app/" target="_blank" className="btn">{t('projects.project4.buttons.access')}</a>
               </div>
             </div>
+
+            <div className="projects-box" id="project-5">
+              <div className="projects-info">
+                <h4>{t('projects.project5.title')}</h4>
+                <img src={dragAndDrop} alt={t('projects.project5.title')} />
+                <p className='paragrafoText'>{t('projects.project5.description')}</p>
+                <p><strong>{t('projects.project5.technologies')}</strong></p>
+              </div>
+              <div className="projects-buttons">
+              <a href="https://github.com/Cristian-Nascimento/dragAndDropWeb" target="_blank" className="btn">{t('projects.project5.buttons.web')}</a>
+              <a href="https://github.com/Cristian-Nascimento/dragAndDropAPI" target="_blank" className="btn">{t('projects.project5.buttons.api')}</a>
+                <a href="https://draganddropc.netlify.app/" target="_blank" className="btn">{t('projects.project5.buttons.access')}</a>
+              </div>
+            </div>
+
           </div>
         </section>
       </div>

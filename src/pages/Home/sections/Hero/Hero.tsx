@@ -1,4 +1,4 @@
-import fundo from '../../../../assets/perfil-circle.png';
+import fundo from '../../../../assets/perfil_1.svg';
 import './Hero.css';
 import { useTranslation } from 'react-i18next';
 
@@ -11,6 +11,7 @@ const Hero = () => {
                 <img src={fundo} alt="Imagem de perfil" className='img' />
             </div>
             <div className="home-content">
+                <h1>Cristian Nascimento</h1>
                 <h3>{t('hero.title')}</h3>
                 <br />
                 <p>{t('hero.description')}</p>

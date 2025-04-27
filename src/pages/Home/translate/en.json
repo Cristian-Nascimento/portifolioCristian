@@ -105,6 +105,16 @@
         "sourceCode": "WEB CODE",
         "access": "ACCESS"
       }
+    },
+    "project5": {
+      "title": "Drag And Drop",
+      "description": "A Drag and Drop application built with React and TypeScript, consuming an external API. The project also utilizes environment variables (.env) for configuration.",
+      "technologies": "Technologies: React, TypeScript, MongoDB",
+      "buttons": {
+        "web": "WEB",
+        "api": "API",
+        "access": "ACCESS"
+      }
     }
   },
   "softSkills": {
@@ -112,80 +122,129 @@
     "intro": "I have practical experience with various modern technologies essential for Backend development and cloud services.",
     "technologies": [
       {
+        "icone": "devicon-nodejs-plain-wordmark",
         "title": "Node.js",
         "description": "JavaScript runtime environment for server-side, used to build scalable APIs."
       },
       {
+        "icone": "devicon-express-original",
         "title": "Express",
         "description": "Minimalist framework for Node.js, used to build web applications and APIs."
       },
       {
+        "icone": "devicon-nestjs-original",
         "title": "Nest.js",
         "description": "Progressive Node.js framework built with TypeScript, focused on efficiency and scalability."
       },
       {
+        "icone": "devicon-mongodb-plain-wordmark",
         "title": "MongoDB",
         "description": "NoSQL database, ideal for storing large volumes of unstructured data."
       },
       {
+        "icone": "devicon-mongoose-original",
         "title": "Mongoose",
         "description": "ODM library for MongoDB, simplifies data manipulation in Node.js."
       },
       {
+        "icone": "devicon-mysql-original",
         "title": "MySQL",
         "description": "Relational database widely used for storing and managing structured data."
       },
       {
+        "icone": "devicon-sonarqube-original",
         "title": "SonarQube",
         "description": "Platform for continuous code inspection, focused on quality and security."
       },
       {
+        "icone": "devicon-postman-plain",
         "title": "Postman",
         "description": "Tool used to test APIs, facilitating development and documentation."
       },
       {
+        "icone": "devicon-docker-plain",
         "title": "Docker",
         "description": "Tool for containerizing applications, ensuring portability and consistency."
       },
       {
+        "icone": "devicon-git-plain",
         "title": "Git",
         "description": "Code versioning system, essential for control and collaboration in projects."
       },
       {
+        "icone": "devicon-github-original",
         "title": "GitHub",
         "description": "Platform for hosting Git repositories, facilitating collaboration and code management."
       },
       {
+        "icone": "devicon-gitlab-plain",
         "title": "GitLab",
         "description": "CI/CD platform and Git repository management, offering continuous integration."
       },
       {
+        "icone": "devicon-react-original",
         "title": "React",
         "description": "JavaScript library for building user interfaces, focused on reusable components."
       },
       {
+        "icone": "devicon-nextjs-plain",
         "title": "Next.js",
         "description": "React framework for developing web applications with hybrid rendering."
       },
       {
+        "icone": "devicon-jest-plain",
         "title": "Jest",
         "description": "JavaScript testing framework, focused on simplicity and support for large applications."
       },
       {
+        "icone": "devicon-python-plain",
         "title": "Python",
         "description": "Versatile language used for web development, data science, and automation."
       },
       {
+        "icone": "devicon-javascript-plain",
         "title": "JavaScript",
         "description": "Main language for web development, essential for front-end and back-end."
       },
       {
+        "icone": "devicon-typescript-plain",
         "title": "TypeScript",
         "description": "JavaScript with static typing, increasing code safety and scalability."
       },
       {
+        "icone": "devicon-amazonwebservices-plain-wordmark",
         "title": "Amazon Web Services",
         "description": "Cloud services platform used for deployment, storage, and application scalability."
+      },
+      {
+        "icone": "devicon-googlecloud-plain",
+        "title": "Google Cloud",
+        "description": "Cloud services platform used for deployment, storage, and application scalability."
+      },
+      {
+        "icone": "devicon-azure-plain",
+        "title": "Microsoft Azure",
+        "description": "Cloud services platform used for deployment, storage, and application scalability."
+      },
+      {
+        "icone": "devicon-bootstrap-plain",
+        "title": "Bootstrap",
+        "description": "Front-end framework for developing responsive and mobile-first websites."
+      },
+      {
+        "icone": "devicon-tailwindcss-plain",
+        "title": "Tailwind CSS",
+        "description": "Utility-first CSS framework for building custom designs quickly."
+      },
+      {
+        "icone": "devicon-html5-plain",
+        "title": "HTML 5",
+        "description": "Markup language for structuring web content."
+      },
+      {
+        "icone": "devicon-css3-plain",
+        "title": "CSS 3",
+        "description": "Style sheet language for designing web pages."
       }
     ]
   }

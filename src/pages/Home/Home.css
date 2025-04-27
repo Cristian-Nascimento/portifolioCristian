@@ -9,8 +9,13 @@
     font-family: "Poppins", sans-serif;
 }
 
+:root {
+    --bg-color: #ffffff;
+    --second-bg-color: #395ac9;
+    --text-color: #000000;
+}
+
 .container{
     width: 100vw;
     min-height: 100vh;
-    background-color: #0F0C08;;
 }
