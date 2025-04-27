@@ -1,10 +1,13 @@
 import './Footer.css'
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+    const { t } = useTranslation();
+
     return (
         <footer className="footer">
         <p className="copyright">
-            &copy; 2024 Cristian Nascimento | Todos os direitos reservados.
+            &copy; {t('footer.heading')}
         </p>
     </footer>
     )

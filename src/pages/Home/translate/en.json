@@ -247,5 +247,8 @@
         "description": "Style sheet language for designing web pages."
       }
     ]
+  },
+  "footer": {
+    "heading": "2024 Cristian Nascimento | All rights reserved."
   }
 }

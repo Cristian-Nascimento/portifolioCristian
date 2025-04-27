@@ -215,8 +215,7 @@
         "icone": "devicon-amazonwebservices-plain-wordmark",
         "title": "Amazon Web Services",
         "description": "Plataforma de serviços em nuvem usada para deploy, armazenamento e escalabilidade de aplicações."
-      }
-      ,
+      },
       {
         "icone": "devicon-googlecloud-plain",
         "title": "Google Cloud",
@@ -248,5 +247,8 @@
         "description": "Linguagem de folha de estilo para criação de páginas web."
       }
     ]
+  },
+  "footer": {
+    "heading": "2024 Cristian Nascimento | Todos os direitos reservados."
   }
 }
